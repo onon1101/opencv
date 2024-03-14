@@ -29,6 +29,8 @@ include_directories(${CMAKE_SOURCE_DIR}/includes)
 # Define Marco
 #target_compile_definitions(${PROJECT_NAME} PRIVATE ASSERTS="assets/")
 add_compile_definitions(${PROJECT_NAME} PRIVATE ASSERTS="${CMAKE_SOURCE_DIR}/assets")
+add_compile_definitions(${PROJECT_NAME} PRIVATE MODULES="${CMAKE_SOURCE_DIR}/module")
+add_compile_definitions(${PROJECT_NAME} PRIVATE DIST="${CMAKE_SOURCE_DIR}/dist")
 # Link
 add_executable(${PROJECT_NAME} src/main.cpp)
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})

@@ -1,5 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/chenshiang/Desktop/opencv -B /Users/chenshiang/Desktop/opencv/cmake-build-debug
--- donwloadign opencv
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/chenshiang/Desktop/opencv/cmake-build-debug
